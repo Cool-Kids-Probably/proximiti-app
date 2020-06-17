@@ -10,7 +10,7 @@ namespace proximiti.Helpers
         //Names of the databases
         public const string AccountsDatabase = "AccountsSQLite.db3";
         public const string MessagesDatabase = "MessagesSQLite.db3";
-        public const string StoriesDatabase = "StoresSQLite.db3";
+        public const string StoriesDatabase = "StoriesSQLite.db3";
 
         //Default enum values used to init database connections
         public const SQLite.SQLiteOpenFlags Flags =
