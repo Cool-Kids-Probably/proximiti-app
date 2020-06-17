@@ -5,6 +5,7 @@ using System.Text;
 namespace proximiti.Networking
 {
     class BluetoothComm
-{
-}
+    {
+
+    }
 }
