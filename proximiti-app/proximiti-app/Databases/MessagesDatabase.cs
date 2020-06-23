@@ -1,4 +1,5 @@
 ﻿using proximiti.Helpers;
+using proximiti.Objects;
 using SQLite;
 using System;
 using System.Collections.Generic;
@@ -32,37 +33,37 @@ namespace proximiti.Databases
         {
             if (!initialized)
             {
-                if (!Database.TableMappings.Any(m => m.MappedType.Name == typeof(Account).Name))
+                if (!Database.TableMappings.Any(m => m.MappedType.Name == typeof(Message).Name))
                 {
-                    await Database.CreateTableAsync(typeof(Account), CreateFlags.None).ConfigureAwait(false);
+                    await Database.CreateTableAsync(typeof(Message), CreateFlags.None).ConfigureAwait(false);
                     initialized = true;
                 }
             }
         }
 
         //This method returns the account associated with the UUID provided
-        public Task<Account> GetAccount(int id)
+        public Task<Message> GetMessage(int id)
         {
-            return Database.Table<Account>().Where(i => i.ID == id).FirstOrDefaultAsync();
+            return Database.Table<Message>().Where(i => i.MessageID == id).FirstOrDefaultAsync();
         }
 
         //This method takes an Account object and stores it in the database
-        public Task<int> SaveAccount(Account newAccount)
+        public Task<int> SaveMessage(Message newMessage)
         {
-            if (newAccount.ID != 0)
+            if (newMessage.MessageID != 0)
             {
-                return Database.UpdateAsync(newAccount);
+                return Database.UpdateAsync(newMessage);
             }
             else
             {
-                return Database.InsertAsync(newAccount);
+                return Database.InsertAsync(newMessage);
             }
         }
 
         //This method deletes the account associated with the UUID provided
-        public Task<int> DeleteAccount(int id)
+        public Task<int> DeleteMessage(int id)
         {
-            return Database.DeleteAsync(GetAccount(id));
+            return Database.DeleteAsync(GetMessage(id));
         }
     }
 }
