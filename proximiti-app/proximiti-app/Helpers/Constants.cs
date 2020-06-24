@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using Xamarin.Essentials;
 
 namespace proximiti.Helpers
 {
@@ -23,8 +24,7 @@ namespace proximiti.Helpers
         //Finds and returns the path of the database
         public static string getDatabasePath (String databaseName)
         {
-            var basePath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
-            return Path.Combine(basePath, databaseName);
+            return Path.Combine(FileSystem.AppDataDirectory, databaseName);
         }
     }
 }

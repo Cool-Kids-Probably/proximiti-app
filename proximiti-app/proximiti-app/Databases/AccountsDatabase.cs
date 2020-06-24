@@ -51,7 +51,7 @@ namespace proximiti.Databases
         //This method takes an Account object and stores it in the database
         public Task<int> SaveAccount(Account newAccount)
         {
-            if (newAccount.ID != 0)
+            if (newAccount.UUID != 0)
             {
                 return Database.UpdateAsync(newAccount);
             }

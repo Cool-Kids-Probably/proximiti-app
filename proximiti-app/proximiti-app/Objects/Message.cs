@@ -7,9 +7,11 @@ namespace proximiti.Objects
 {
     public class Message
     {
-        public int MID { get; set; }
-        public 
-        public String ActualMessage { get; set; }
-
+        [AutoIncrement]
+        public int MessageID { get; set; }
+        [PrimaryKey]
+        public int[] ParticipantIDs { get; set; }
+        public String TextMessage { get; set; }
+            
     }
 }
