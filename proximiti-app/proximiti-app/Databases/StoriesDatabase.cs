@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 
 namespace proximiti.Databases
 {
-    class MessagesDatabase
+    class StoriesDatabase
     {
         //Creates an initializer for the database that doesn't open until called for
         static readonly Lazy<SQLiteAsyncConnection> lazyInitializer = new Lazy<SQLiteAsyncConnection>(() =>
         {
-            return new SQLiteAsyncConnection(Constants.AccountsDatabase, Constants.Flags);
+            return new SQLiteAsyncConnection(Constants.StoriesDatabase, Constants.Flags);
         });
 
         //Instance of the lazy initializer
@@ -23,7 +23,7 @@ namespace proximiti.Databases
         static bool initialized = false;
 
         //Default constructor, calls an async initializer to prevent lockups
-        public MessagesDatabase()
+        public StoriesDatabase()
         {
             InitializeAsync().SafeFireAndForget(false);
         }
@@ -33,18 +33,18 @@ namespace proximiti.Databases
         {
             if (!initialized)
             {
-                if (!Database.TableMappings.Any(m => m.MappedType.Name == typeof(Message).Name))
+                if (!Database.TableMappings.Any(m => m.MappedType.Name == typeof(StoryStorage).Name))
                 {
-                    await Database.CreateTableAsync(typeof(Message), CreateFlags.None).ConfigureAwait(false);
+                    await Database.CreateTableAsync(typeof(StoryStorage), CreateFlags.None).ConfigureAwait(false);
                     initialized = true;
                 }
             }
         }
 
         //This method returns the account associated with the UUID provided
-        public Task<Message> GetMessage(int id)
+        public Task<StoryStorage> GetStory(int id)
         {
-            return Database.Table<Message>().Where(i => i.MessageID == id).FirstOrDefaultAsync();
+            return Database.Table<Story>().Where(i => i.StoryUID == id).FirstOrDefaultAsync();
         }
 
         //This method takes an Account object and stores it in the database
