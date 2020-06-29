@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Mksh3stjuHiDdvArPPjiekux6UrlvHy3ieLIfDaK9171YCwD+dPfL/jSTO3H00Q459nqU4yICnxkhanrViKH4w==",
+  "dgSpecHash": "GGGAKSFtoGwsOj1GY45eDNpFFoGaYgn0AEa6SEmzQFdHBGey4GRdIKwl8mfmt3Z/ahUTld7zs/3wIbhPyU9/XA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ASUS\\Desktop\\Coding Projects\\Proximiti App Project\\proximiti-app\\proximiti-app\\proximiti-app.iOS\\proximiti.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
@@ -12,7 +13,7 @@
     "C:\\Users\\ASUS\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Users\\ASUS\\.nuget\\packages\\xamarin.forms\\4.6.0.967\\xamarin.forms.4.6.0.967.nupkg.sha512"
+    "C:\\Users\\ASUS\\.nuget\\packages\\xamarin.forms\\4.7.0.968\\xamarin.forms.4.7.0.968.nupkg.sha512"
   ],
   "logs": []
 }
