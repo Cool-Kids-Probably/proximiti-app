@@ -1,0 +1,7 @@
+C:\Users\ASUS\Desktop\Coding Projects\Proximiti App Project\proximiti-app\proximiti-app\proximiti-app\bin\Debug\netstandard2.0\proximiti.deps.json
+C:\Users\ASUS\Desktop\Coding Projects\Proximiti App Project\proximiti-app\proximiti-app\proximiti-app\bin\Debug\netstandard2.0\proximiti.dll
+C:\Users\ASUS\Desktop\Coding Projects\Proximiti App Project\proximiti-app\proximiti-app\proximiti-app\obj\Debug\netstandard2.0\proximiti.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Coding Projects\Proximiti App Project\proximiti-app\proximiti-app\proximiti-app\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ASUS\Desktop\Coding Projects\Proximiti App Project\proximiti-app\proximiti-app\proximiti-app\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ASUS\Desktop\Coding Projects\Proximiti App Project\proximiti-app\proximiti-app\proximiti-app\obj\Debug\netstandard2.0\proximiti.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Coding Projects\Proximiti App Project\proximiti-app\proximiti-app\proximiti-app\obj\Debug\netstandard2.0\proximiti.AssemblyInfo.cs
