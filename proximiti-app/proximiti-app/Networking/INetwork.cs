@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace proximiti.Objects
+namespace proximiti.Networking
 {
-    class StoryPackage
+    interface INetwork
     {
     }
 }

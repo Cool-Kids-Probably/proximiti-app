@@ -8,10 +8,10 @@ namespace proximiti.Objects
     public class Message
     {
         [AutoIncrement]
-        public int MessageID { get; set; }
+        public int MessageUID { get; set; }
         [PrimaryKey]
         public int[] ParticipantIDs { get; set; }
-        public String TextMessage { get; set; }
+        public String PlaintextMessage { get; set; }
             
     }
 }

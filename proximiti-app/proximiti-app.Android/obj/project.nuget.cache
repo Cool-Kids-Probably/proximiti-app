@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "E/rgPU6MWsZpvFvyq/TQSl+G/Bi/CtnkCR+LfuoIv++/hDW64aHXoddfjQ9N5T1Ry5K0xJ0fnDraR4rwoxrbNw==",
+  "dgSpecHash": "Ownf9Ix/ADd/pYd/xibLf1Pkq+t5rFM0KUYYZbWXNPGSyCnK5gaUhXpdQlldyFxop0m8LrNSGHxh5dBt818ibw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ASUS\\Desktop\\Coding Projects\\Proximiti App Project\\proximiti-app\\proximiti-app\\proximiti-app.Android\\proximiti.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
@@ -50,7 +51,7 @@
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.versionedparcelable\\28.0.0.3\\xamarin.android.support.versionedparcelable.28.0.0.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.viewpager\\28.0.0.3\\xamarin.android.support.viewpager.28.0.0.3.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Users\\ASUS\\.nuget\\packages\\xamarin.forms\\4.6.0.967\\xamarin.forms.4.6.0.967.nupkg.sha512"
+    "C:\\Users\\ASUS\\.nuget\\packages\\xamarin.forms\\4.7.0.968\\xamarin.forms.4.7.0.968.nupkg.sha512"
   ],
   "logs": []
 }
