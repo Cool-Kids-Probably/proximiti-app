@@ -11,7 +11,7 @@ namespace proximiti.Objects
         public int MessageID { get; set; }
         [PrimaryKey]
         public int[] ParticipantIDs { get; set; }
-        public String TextMessage { get; set; }
+        public String PlaintextMessage { get; set; }
             
     }
 }
