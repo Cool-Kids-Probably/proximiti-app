@@ -1,8 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>v4.8</TargetFramework>
     <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+    <Company>The Proximiti Group</Company>
+    <Authors>Safe Gergis, Jeffrey Mun, Julia Tran, Clemence Yi</Authors>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -18,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Messaging\" />
     <Folder Include="UI\" />
   </ItemGroup>
 </Project>

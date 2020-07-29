@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\Desktop\\Coding Projects\\Proximiti App Project\\proximiti-app\\proximiti-app\\proximiti-app.iOS\\proximiti.iOS.csproj": {}
+    "C:\\Users\\yicle\\Coding Projects\\proximiti-app\\proximiti-app\\proximiti-app.iOS\\proximiti.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\Desktop\\Coding Projects\\Proximiti App Project\\proximiti-app\\proximiti-app\\proximiti-app.iOS\\proximiti.iOS.csproj": {
+    "C:\\Users\\yicle\\Coding Projects\\proximiti-app\\proximiti-app\\proximiti-app.iOS\\proximiti.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\Coding Projects\\Proximiti App Project\\proximiti-app\\proximiti-app\\proximiti-app.iOS\\proximiti.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\yicle\\Coding Projects\\proximiti-app\\proximiti-app\\proximiti-app.iOS\\proximiti.iOS.csproj",
         "projectName": "proximiti.iOS",
-        "projectPath": "C:\\Users\\ASUS\\Desktop\\Coding Projects\\Proximiti App Project\\proximiti-app\\proximiti-app\\proximiti-app.iOS\\proximiti.iOS.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Desktop\\Coding Projects\\Proximiti App Project\\proximiti-app\\proximiti-app\\proximiti-app.iOS\\obj\\",
+        "projectPath": "C:\\Users\\yicle\\Coding Projects\\proximiti-app\\proximiti-app\\proximiti-app.iOS\\proximiti.iOS.csproj",
+        "packagesPath": "C:\\Users\\yicle\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yicle\\Coding Projects\\proximiti-app\\proximiti-app\\proximiti-app.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yicle\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\ASUS\\Desktop\\Coding Projects\\Proximiti App Project\\proximiti-app\\proximiti-app\\proximiti-app\\proximiti.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\Desktop\\Coding Projects\\Proximiti App Project\\proximiti-app\\proximiti-app\\proximiti-app\\proximiti.csproj"
+              "C:\\Users\\yicle\\Coding Projects\\proximiti-app\\proximiti-app\\proximiti-app\\proximiti.csproj": {
+                "projectPath": "C:\\Users\\yicle\\Coding Projects\\proximiti-app\\proximiti-app\\proximiti-app\\proximiti.csproj"
               }
             }
           }
@@ -73,33 +73,32 @@
         }
       }
     },
-    "C:\\Users\\ASUS\\Desktop\\Coding Projects\\Proximiti App Project\\proximiti-app\\proximiti-app\\proximiti-app\\proximiti.csproj": {
+    "C:\\Users\\yicle\\Coding Projects\\proximiti-app\\proximiti-app\\proximiti-app\\proximiti.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\Coding Projects\\Proximiti App Project\\proximiti-app\\proximiti-app\\proximiti-app\\proximiti.csproj",
+        "projectUniqueName": "C:\\Users\\yicle\\Coding Projects\\proximiti-app\\proximiti-app\\proximiti-app\\proximiti.csproj",
         "projectName": "proximiti",
-        "projectPath": "C:\\Users\\ASUS\\Desktop\\Coding Projects\\Proximiti App Project\\proximiti-app\\proximiti-app\\proximiti-app\\proximiti.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Desktop\\Coding Projects\\Proximiti App Project\\proximiti-app\\proximiti-app\\proximiti-app\\obj\\",
+        "projectPath": "C:\\Users\\yicle\\Coding Projects\\proximiti-app\\proximiti-app\\proximiti-app\\proximiti.csproj",
+        "packagesPath": "C:\\Users\\yicle\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yicle\\Coding Projects\\proximiti-app\\proximiti-app\\proximiti-app\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yicle\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netstandard2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netstandard2.1": {
             "projectReferences": {}
           }
         },
@@ -110,14 +109,8 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netstandard2.1": {
           "dependencies": {
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
-            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
@@ -145,7 +138,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
